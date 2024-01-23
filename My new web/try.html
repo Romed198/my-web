@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image */
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+        }
+
+        .glass-container {
+            background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+        }
+
+        .content {
+            /* Your content styling goes here */
+            color: #333;
+            text-align: center;
+        }
+    </style>
+    <title>Glass Effect</title>
+</head>
+<body>
+    <div class="glass-container">
+        <div class="content">
+            <h1>Your Title</h1>
+            <p>Your content goes here...</p>
+        </div>
+    </div>
+</body>
+</html>
