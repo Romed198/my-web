@@ -1,0 +1,4 @@
+[build]
+command = "yarn build"  # Replace with your build command
+publish = "C:/Users/mezor/OneDrive/Desktop/My new web"  # Replace with the directory where your built files are located
+
